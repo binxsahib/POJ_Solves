@@ -32,14 +32,11 @@ using namespace std;
 
 void solve()
 {
-    double n, sum=0.0;
+    int a, b;
+           
+    cin>>a>>b;
 
-    for(int i=1; i<=12; i++){
-        cin>>n;
-        sum+=n;
-    }
-
-    cout<<fixed<<setprecision(2)<<"$"<<sum/12.0<<endl;
+    cout<<a+b<<endl;
 }
 
 int main()
